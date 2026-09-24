@@ -1,13 +1,14 @@
-<div class="w-[95%] flex flex-col justify-center items-center bg-white">
-    <img class="w-[50%]" [src]="imgSrc" alt="">
-    <span>
-        <p>{{chapter}}</p>
-        p{{publishDate}}
-        <h1>{{title}}</h1>
+<div class="w-80 flex flex-col justify-center items-start bg-white p-6 gap-6 rounded-2xl ring-1 shadow-[8px_8px_1px] ">
+    <img class="w-full rounded-lg" [src]="imgSrc" alt="">
+    <span class="flex flex-col items-start gap-4">
+        <p class="bg-yellow px-3 py-1 text-xs font-extrabold rounded-sm">{{chapter}}</p>
+        <p class=" text-xs font-semibold">{{publishDate}}</p>
+        <h1 class="text-lg font-black hover:text-yellow cursor-pointer">{{title}}</h1>
+        <p class="text-gray-500 text-sm">{{description}}</p>
     </span>
-    <div>
-        <img class="w-15 h-15" [src]="profileImgSrc" alt="">
-        <p>{{profileImgName}}</p>
+    <div class="flex flex-row items-center gap-2">
+        <img class="w-7 h-7" [src]="profileImgSrc" alt="">
+        <p class="text-xs font-extrabold">{{profileImgName}}</p>
     </div>
     
 </div>
