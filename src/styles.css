@@ -12,14 +12,14 @@
     font-family: 'Figtree';
     font-size: 500;
     font-weight: normal;
-    src: url(../../assets/fonts/static/Figtree-Medium.ttf);
+    src: url('/assets/fonts/static/Figtree-Medium.ttf');
 }
 
 @font-face {
     font-family: 'Figtree';
     font-size: 800;
     font-weight: normal;
-    src: url(../../assets/fonts/static/Figtree-ExtraBold.ttf);
+    src: url('/assets/fonts/static/Figtree-ExtraBold.ttf');
 }
 
 body {
